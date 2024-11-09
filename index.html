@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storage</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Web Storage</h1>
+    </header>
+    <nav>
+      <!-- form to gather data -->
+      <form>
+        <label for="title">Movie Title</label> <input type="text" value="" maxlength="20" id="title" name="title" /> <label for="director">Director</label>
+        <input type="text" value="" maxlength="20" id="director" name="director" />
+        <span></span><button id="btnSave">Save</button>
+      </form>
+    </nav>
+    <main>
+      <!-- display area -->
+      <h2>Movies</h2>
+      <dl id="movies">
+        <!-- display all the movies and directors -->
+        <dt>Alien Prometheus</dt>
+        <dd>Ridley Scott</dd>
+        <dt>Interstellar</dt>
+        <dd>Christopher Nolan</dd>
+      </dl>
+    </main>
+  </body>
+</html>
