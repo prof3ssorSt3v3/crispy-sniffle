@@ -22,6 +22,19 @@ header {
     padding: 1rem 2rem;
     margin: 0;
     font-weight: 500;
+
+    span {
+      display: inline-block;
+      font-size: 1.5rem;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      padding: 0.2rem;
+      line-height: 1.5rem;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
   }
 }
 nav {
@@ -43,6 +56,7 @@ nav {
       color: var(--white);
       background-color: var(--blue);
       font-weight: 500;
+      padding: 0.8rem 2rem;
     }
   }
 }
